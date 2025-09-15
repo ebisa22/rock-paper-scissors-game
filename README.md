@@ -3,5 +3,5 @@
 A simple javascript based rock paper scissor-game that is played
 on the console.
 
-##Author
+## Author
 ebisa eshetu
