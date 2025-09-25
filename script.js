@@ -1,5 +1,6 @@
     
     //get User's Name
+    alert('Rock Paper Scissor game\nGame ends when a player reach score 5 ');
    const userName= function getUserName (){
     
       let userName=prompt('What is your name ?');
