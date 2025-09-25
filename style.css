@@ -169,10 +169,15 @@
       }
       .score-title{
          margin: 0px 8px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
          font-size: 1.1rem;
          padding: 6px;
          text-align: center;
          max-width: 100px;
+         padding: 14px 8px;
+         height: max-content;
       }
       .choice{
          font-size: 1.2rem;
@@ -213,9 +218,13 @@
        .score-title{
          margin: 0px 5px;
          font-size: 1rem;
-         padding: 3px;
+         padding: 10px 6px;
+          display: flex;
+         align-items: center;
+         justify-content: center;
          text-align: center;
          max-width: 70px;
+         height: max-content;
       }
         .choice{
          font-size: 1rem;
