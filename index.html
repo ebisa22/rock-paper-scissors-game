@@ -7,11 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock Paper Scissors game</h1>
-     <h1>Before starting the game press F12</h1>
-    <button id="start-btn">Start Game</button>
-     
-    <script src="script.js"></script>
+<div class="top">
+  <h1>Rock Paper Scissor</h1>
+</div>
 
+<div class="container">
+  <!-- scores -->
+ <div class="score">
+    <p class="user-score score-container">
+       <span id="userName">User</span>
+       <span class="num" id="user-num">0</span>
+      </p>
+        <p class="score-title"> </p>
+    <p class="comp-score score-container">
+      Computer  
+      <span class="num" id="comp-num">0</span>
+    </p>
+ </div>
+  <!-- game body -->
+  <div class="game-body">
+    <div class="human-choice choice"></div>
+
+    <div class="comp-choice choice"></div>
+  </div>
+  <!-- separate -->
+  <p class="title">Click Your choice</p>
+<!-- game choice -->
+  <div class="game-btns">
+  
+    <button class="btn" id="rock">Rock</button>
+    <button class="btn" id="paper">Paper</button>
+    <button class="btn" id="scissor">Scissor</button>
+  </div>
+  <!-- control -->
+   <div class="control-cont">
+    <button id="reset">Reset</button>  
+   </div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
